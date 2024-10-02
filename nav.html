@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Toggle Menu Button -->
+    <i class="fa-solid fa-bars" id="toggleMenu"></i>
+
+    <!-- Side Menu -->
+    <div id="sideMenu" class="side-menu">
+        <i id="closeMenu" class="fa fa-times"></i>
+        <p>Menu Content</p>
+    </div>
+
+    <script>
+        document.getElementById('toggleMenu').addEventListener('click', function() {
+            var sideMenu = document.getElementById('sideMenu');
+            sideMenu.classList.add('show');
+        });
+
+        document.getElementById('closeMenu').addEventListener('click', function() {
+            var sideMenu = document.getElementById('sideMenu');
+            sideMenu.classList.remove('show');
+        });
+    </script>
+
+</body>
+</html>

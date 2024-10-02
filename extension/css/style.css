@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 370px;
+    height: 560px;
+    /* width: 96vw;
+    height: 97vh; */
+    background-color: rgb(151, 209, 222);
+    
+}
+
+.headerP{
+    text-align: center;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: bold;
+}
+
+/* .extensionContainer {
+    width: 100%;
+    height: 100%;
+} */
+
+.secondWordInH1 {
+    color: white;
+}
+
+.h1Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin-top: 5vh;
+    border-radius: 7px;
+    padding: 6px;
+    cursor: pointer;
+    margin-top: 6vh;
+}
+
+button:hover {
+    background-color: gray;
+    color: white;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 6px;
+}
+
+.textBoxContainer {
+    margin: auto;
+    margin-top: 20px;
+    width: 80vw;
+    height: 24vh;
+    background-color: white;
+    border-color: black 2px;
+    border-radius: 20px;
+}
+
+#textContainer {
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+/* Hieronder is de css voor de percentage circles */
+
+/* .flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    
+} */
+
+.single-chart {
+    width: 33%;
+    justify-content: space-around;
+    scale: 0.75;
+    flex: 1;
+}
+
+.hidden{
+    display: none;
+}
+
+.hiddenBox{
+    display: none;
+}
+
+
+.circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 4;
+    
+}
+
+.circle {
+    fill: none;
+ 
+    stroke-width: 3;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+    0% {
+        stroke-dasharray: 0 100;
+    }
+}
+
+/* .circular-chart .circle {
+    stroke: #03890e;
+} */
+
+
+
+.percentage {
+    fill: #666;
+    font-family: sans-serif;
+    font-size: 0.7em;
+    font-weight: bold;
+    text-anchor: middle;
+}
+
+.circleAndTextContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    font-size: 0.8rem;
+}
+
+.textContainer h2 {
+    flex: 1;
+    
+}
+
+.textContainer p {
+    flex: 3;
+}

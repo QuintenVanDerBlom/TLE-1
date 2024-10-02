@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Verinews",
+    "version": "1.0",
+    "description": "A extension that checks if news is fake or not, with the help of AI, and carefully chosen prompts.",
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+    "action": {
+        "default_popup": "index.html"
+    }
+}
